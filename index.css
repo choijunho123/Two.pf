@@ -1,0 +1,280 @@
+/* 상단 */
+body{
+  background-image: url(img/black.jpg);
+  max-width: 100%;
+}
+html{
+  height: 1200px;
+  width: 100%;
+  background-repeat: no-repeat;
+}
+heder{
+}
+heder h1{
+  background-image: url(img/Fortfolio.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+heder h1 a{
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  height: 150px;
+  font-style: italic;
+  text-shadow: 5px 5px 5px peru;
+  align-items: center;
+}
+heder h1 a img{
+  background-position: center;
+  background-color: gold;
+}
+heder div{
+  position: sticky;
+  top: 0;
+  text-shadow: 2px 2px 2px whitesmoke;
+}
+heder div ul{
+  display: flex;
+  gap: 100px;
+  font-size: 30px;
+  font-style: italic;
+}
+heder div ul:after{
+  content: "";
+}
+heder div ul a:hover{
+  color: #fff;
+  text-shadow: 5px 2px 5px white;
+  transition: all 1s;
+}
+/* 타이틀 */
+#title{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+}
+#title .wrap{
+  display: flex;
+  flex-direction: column;
+}
+#title .wrap img{
+}
+#title ul{
+}
+#title ul .why{
+  position: fixed;
+  left: 20px;
+  top: 40%;
+  font-size: 30px;
+  text-shadow: 1px 1px 3px #fff;
+}
+#title ul .why li{
+  
+  display: flex;
+  width: 200px;
+  justify-content: start;
+}
+#title ul .why li a:hover{
+  color: #fff;
+  text-shadow: 5px 2px 5px wheat;
+  transition: all 1s;
+}
+div#title li{
+}
+/* 어바웃 */
+
+#ABOUT{
+  color: white;
+}
+#ABOUT .wrap{
+  width: 99%;
+  height: 1060px;
+  border: 5px solid whitesmoke;
+  border-style: ridge;
+}
+#ABOUT .wrap .About{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+#ABOUT .wrap .About p{
+  font-size: 40px;
+  text-align: center;
+  margin-top: 65px;
+}
+#ABOUT .wrap img{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  width: 300px;
+}
+#ABOUT h2{
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+/* 스킬 */
+
+#SKILL{
+  height: 1060px;
+}
+#SKILL .wrap{
+  flex-direction: column;
+}
+#SKILL h3{
+  font-size: 100px;
+  justify-content: center;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  padding: 50px;
+}
+#SKILL ul{
+  display: flex;
+  margin-top:80px;
+  margin-left: calc(50% - 45%);
+}
+#SKILL ul li{
+}
+#SKILL .wrap li::after{
+  display: flex;
+  width: 260px;
+  height: 215px;
+  background-repeat: no-repeat;
+  background-size: 150px;
+  background-position-x: 50%;
+  background-position-y: 0px;
+}
+#SKILL .wrap .html li:nth-child(1):after{
+  content: "";
+  background-image: url(png/html.png);
+}
+#SKILL .wrap .html li:nth-child(2):after{
+  content: "";
+  background-image: url(png/css.png);
+}
+#SKILL .wrap .html li:nth-child(3):after{
+  content: "";
+  background-image: url(png/js.png);
+}
+#SKILL .wrap .html li:nth-child(4):after{
+  content: "";
+  background-image: url(png/jq.png);
+  background-position-y: 35px;
+}
+#SKILL .wrap .png li:nth-child(1):after{
+  content: "";
+  background-image: url(png/ai.png);
+}
+#SKILL .wrap .png li:nth-child(2):after{
+  content: "";
+  background-image: url(png/ae.png);
+}
+#SKILL .wrap .png li:nth-child(3):after{
+  content: "";
+  background-image: url(png/pr.png);
+}
+#SKILL .wrap .png li:nth-child(4):after{
+  content: "";
+  background-image: url(png/ps.png);
+}
+#SKILL .wrap .png li:nth-child(5):after{
+  content: "";
+  background-image: url(png/st.png);
+}
+
+/* 포트폴리오 */
+
+#PORTFOLIO{
+  height: 1060px;
+}
+#PORTFOLIO h4{
+  font-size: 100px;
+  justify-content: center;
+  color: white;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  padding: 50px;
+}
+#PORTFOLIO .contents{
+  width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
+}
+#PORTFOLIO .contents li{
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+  border-radius: 20px;
+  text-align: center;
+}
+#CONTACT{
+  height: 1060px;
+  color: white;
+}
+#CONTACT h5{
+  font-size: 100px;
+  display: flex;
+}
+#CONTACT p{
+  font-size: 40px;
+  display: flex;
+  width: 90%;
+  margin-left: 100px;
+  text-align: center;
+}
+footer div{
+  color: black;
+  font-size: 25px;
+  display: flex;
+  background-color: #ccc;
+}
+footer div p{
+  font-size: 14px;
+  font-weight: 300;
+  color: #000;
+  line-height: 1.5;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
